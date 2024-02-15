@@ -146,6 +146,6 @@ Additionally, exploring advanced analytics capabilities within Power BI, such as
 
 #### Did you find this document helpful? Leave a Star
 
-[![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Data-Source-Relational-Database.svg?style=social)](https://github.com/chigozie-i/Data-Source-Relational-Database/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Data-Source-Relational-Databases.svg?style=social)](https://github.com/chigozie-i/Data-Source-Relational-Databases/stargazers)
 
 #### You may make a contribution to help us improve on our documentation by submitting a pull request.
