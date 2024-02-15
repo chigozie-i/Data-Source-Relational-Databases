@@ -7,10 +7,10 @@ In today’s data driven world, organizations rely heavily on insights derived f
 
 - [Overview](#Overview)
 - [Data Sources](#Data-Sources)
-- [Connecting To RDB](#Connecting-To-A-Relational-Database)
-- [Connect to RDB Data](#How-To-Connect-To-Data-In-Your-Database)
-- [SQL Query](#Importing-Data-By-Writing-An-SQL-Query)
-- [SChange Data Source](#Change-Data-Source-Setting)
+- [Connecting To A Relational Database](#Connecting-To-A-Relational-Database)
+- [How To Connect To Data In Your Database](#How-To-Connect-To-Data-In-Your-Database)
+- [Importing Data By Writing An SQL Query](#Importing-Data-By-Writing-An-SQL-Query)
+- [Change Data Source Setting](#Change-Data-Source-Setting)
 - [Conclusion](#Conclusion)
 - [Reference](#Reference)
   
