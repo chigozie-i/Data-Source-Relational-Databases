@@ -85,6 +85,8 @@ Select the check box(es) of the table(s) that you want to bring in to Power BI D
 Another way to import data from a relational database is to write an SQL query to specify only the tables and columns that you need.
 To write your SQL query, on the SQL Server database window, enter your server and database names, and then select the arrow next to Advanced options to expand this section and view your options. In the SQL statement box, write your query statement, and then select OK.
 
+![SQL statement](https://github.com/chigozie-i/Data-Source-Relational-Databases/blob/main/SQL%20Statement.png)
+
 #### Writing your SQL Statement
 Consider the scenario where your database has a large table that is comprised of sales data over several years. Sales data up to 2019 isn't relevant to the report that you're creating. This situation is where SQL is beneficial because it allows you to load only the required set of data by specifying exact columns and rows in your SQL statement and then importing them into your semantic model. You can also join different tables, run specific calculations, create logical statements, and filter data in your SQL query.
 
@@ -104,7 +106,6 @@ WHERE OrderDate >= ‘1/1/2020’
 
 It's best practice to avoid doing this directly in Power BI. Instead, consider writing a query like this in a view. A view is an object in a relational database, similar to a table. Views have rows and columns and can contain almost every operator in the SQL language.
 
-![SQL statement](https://github.com/chigozie-i/Data-Source-Relational-Databases/blob/main/SQL%20Statement.png)
 
 ## Change Data Source Setting:
 
