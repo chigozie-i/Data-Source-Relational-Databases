@@ -95,12 +95,14 @@ The SQL query starts with a Select statement, which allows you to choose the spe
 
 ```sql
 SELECT ProductID, ProductName, SalesAmount
+'''
 
 FROM specifies the name of the table that you want to pull the data from. In this case, it's the ProductSales table. 
 
 ```sql
 SELECT ProductID, ProductName, SalesAmount
 FROM ProductSales;
+'''
 
 All queries should also have a WHERE clause. This clause will filter the rows to pick only filtered records that you want. In this example, if you want to get recent sales data after January 1st, 2020, add a WHERE clause.
 
