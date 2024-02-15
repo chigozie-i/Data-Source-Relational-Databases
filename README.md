@@ -91,22 +91,15 @@ To write your SQL query, on the SQL Server database window, enter your server an
 Consider the scenario where your database has a large table that is comprised of sales data over several years. Sales data up to 2019 isn't relevant to the report that you're creating. This situation is where SQL is beneficial because it allows you to load only the required set of data by specifying exact columns and rows in your SQL statement and then importing them into your semantic model. You can also join different tables, run specific calculations, create logical statements, and filter data in your SQL query.
 
 The SQL query starts with a Select statement, which allows you to choose the specific fields that you want to pull from your database. In this example, you want to load the ProductID, ProductName, and SalesAmount columns.
-
-
-```sql
-SELECT ProductID, ProductName, SalesAmount
-'''
-
 FROM specifies the name of the table that you want to pull the data from. In this case, it's the ProductSales table. 
 
 ```sql
 SELECT ProductID, ProductName, SalesAmount
 FROM ProductSales;
-'''
 
 All queries should also have a WHERE clause. This clause will filter the rows to pick only filtered records that you want. In this example, if you want to get recent sales data after January 1st, 2020, add a WHERE clause.
 
-```sql
+
 SELECT ProductID, ProductName, SalesAmount
 FROM ProductSales
 WHERE OrderDate >= ‘1/1/2020’;
