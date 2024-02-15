@@ -96,13 +96,15 @@ FROM specifies the name of the table that you want to pull the data from. In thi
 ```sql
 SELECT ProductID, ProductName, SalesAmount
 FROM ProductSales;
+```
 
 All queries should also have a WHERE clause. This clause will filter the rows to pick only filtered records that you want. In this example, if you want to get recent sales data after January 1st, 2020, add a WHERE clause.
 
-
+```sql
 SELECT ProductID, ProductName, SalesAmount
 FROM ProductSales
 WHERE OrderDate >= ‘1/1/2020’;
+```
 
 It's best practice to avoid doing this directly in Power BI. Instead, consider writing a query like this in a view. A view is an object in a relational database, similar to a table. Views have rows and columns and can contain almost every operator in the SQL language.
 
